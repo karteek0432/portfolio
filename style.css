@@ -281,9 +281,6 @@ body {
 .social-bottom a:hover {
   color: #ffb703;
 }
-.home-text p, .entry p {
-  max-width: 800px;
-}
 
 /* Mobile View: Screens < 768px */
 @media (max-width: 768px) {
