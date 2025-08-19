@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
 
 * {
   margin: 0;
@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background: #0f0f0f;
   color: #f0f0f0;
   line-height: 1.6;
@@ -22,14 +22,14 @@ body {
   align-items: center;
   gap: 30px;
   background-color: #2a2a2c;
-  border-radius: 50px;           /* Circular edges */
+  border-radius: 50px; /* Circular edges */
   padding: 5px;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  margin: 10px auto 50px auto;   /* Center the nav */
-  width: fit-content;            /* Shrink to content */
+  margin: 10px auto 50px auto; /* Center the nav */
+  width: fit-content; /* Shrink to content */
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
   z-index: 100;
 }
@@ -45,7 +45,7 @@ body {
 }
 
 .top-nav a::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 0%;
   height: 2px;
@@ -118,7 +118,6 @@ body {
   opacity: 1;
 }
 
-
 /* Sections */
 .section {
   max-width: 1200px;
@@ -154,7 +153,7 @@ body {
 .home-text {
   flex: 1;
   min-width: 250px;
-  padding-right: 20px
+  padding-right: 20px;
 }
 
 .home-text h1 {
@@ -175,7 +174,6 @@ body {
   border-radius: 50%;
   margin-left: 20px;
   margin-right: 0;
-
 }
 
 .home-avatar img {
@@ -204,17 +202,17 @@ body {
 
 /* Entries */
 .entry {
-  margin-bottom: 5px; 
+  margin-bottom: 5px;
   padding: 20px;
   background-color: #1a1a1a;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .entry:hover {
   transform: translateY(-5px);
-   /* optional nice effect */
+  /* optional nice effect */
 }
 .entry h3 {
   color: #ffd166;
@@ -269,6 +267,7 @@ body {
 /* Social Icons */
 .social-bottom {
   margin-top: 10px;
+  padding-left: 20px;
 }
 
 .social-bottom a {
@@ -284,7 +283,6 @@ body {
 
 /* Mobile View: Screens < 768px */
 @media (max-width: 768px) {
-
   .top-nav {
     flex-wrap: wrap;
     gap: 12px;
